@@ -8,7 +8,7 @@ function setup() {
   createCanvas(1024, 512);
 
   image(kitten, 0, 0);
-  makeDithered(kitten, 2);
+  makeDithered(kitten, 1);
   image(kitten, 512, 0);
   // Apply gray filter to the whole canvas
   filter(GRAY);
