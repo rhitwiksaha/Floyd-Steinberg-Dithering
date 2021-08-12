@@ -6,4 +6,4 @@ The algorithm achieves dithering using error diffusion, meaning it pushes (adds)
 
 The algorithm scans the image from left to right, top to bottom, quantizing pixel values one by one. Each time the quantization error is transferred to the neighboring pixels, while not affecting the pixels that already have been quantized. Hence, if a number of pixels have been rounded downwards, it becomes more likely that the next pixel is rounded upwards, such that on average, the quantization error is close to zero.
 
-![Screenshot](https://github.com/rhitwiksaha/Floyd-Steinberg-Dithering/blob/master/screenshot.png?raw=true)
+![Screenshot](https://github.com/rhitwiksaha/Floyd-Steinberg-Dithering/blob/master/ss.png?raw=true)
